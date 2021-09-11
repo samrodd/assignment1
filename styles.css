@@ -1,0 +1,42 @@
+
+  h1 {
+    color: blue;
+  }
+  p {
+    color: red;
+  }
+  body, html {
+    height: 90%;
+    margin: 0;
+  }
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: #4ca0af;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 2px;
+    cursor: pointer;
+  }
